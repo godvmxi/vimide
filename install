@@ -1,0 +1,9 @@
+#!/bin/bash
+#sudo apt-get install 
+echo "back up your vim config file"
+cp -rf ~/.vimrc  ~/vimrc.bak
+cp -rf ~/.vim/	 ~/vim.bak  
+cp -rf .vim/     ~/.vim/ 
+cp -rf .vimrc    ~/.vimrc
+echo "install complete"
+
