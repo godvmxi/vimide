@@ -66,8 +66,9 @@ colorscheme desert
 
 set shiftwidth=4
 set tabstop=4
-set tags=./tags;/
-
+"set tags=./tags;/
+set tags=tags;
+set autochdir
 "允许光标在任何位置时用 CTRL-TAB 遍历 buffer
 let g:miniBufExplMapCTabSwitchBufs=1
 
